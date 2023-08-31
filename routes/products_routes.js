@@ -17,5 +17,4 @@ router
 
   .delete("/:id", productController.deleteProduct);
 
-
-  exports.routes = router
+exports.routes = router;
